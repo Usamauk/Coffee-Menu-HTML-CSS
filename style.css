@@ -1,98 +1,60 @@
-body {
-    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-    font-family: sans-serif;
-    padding: 20px;
-    /* margin: 40px; */
-}
-
-h1 {
-    font-size: 40px;
-    margin: 0px 0px 15px 0px;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-.established {
-    font-style: italic;
-}
-
-h1, h2,p {
+h1{
     text-align: center;
-}
-
-.menu {
-    width: 80%;
-    background-color: burlywood;
-    margin: 0px auto 0px auto;
-    padding: 20px;
-    max-width: 500px;
-}
-
-img {
-    display: block;
-    margin: 0px auto 0px auto;
-}
-
-hr {
-    height: 2px;
-    background-color: brown;
-    border-color: brown;
-}
-
-.bottom-line {
-    margin-top: 20px;
 
 }
-
-h1, h2 {
-    font-family: Impact , serif;
-}
-.item{
+.containar{
     display: flex;
 }
-.item p {
-    margin: 5px 0px 5px 0px;
-    font-size: 18px;
-    justify-content: space-between;
+
+.containar{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.marker {
+    width: 200px;
+    height: 25px;
+    margin-top: 10px auto;
+}
+
+.cap {
+    width: 60px;
+    height: 25px;
+}
+
+.sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0,0,0,0.75)
+}
+
+.cap , .sleeve {
+    display: inline-block;
+}
+
+
+.red{
+    background: linear-gradient(rgb(122, 74, 14) , rgb(245,62,113) , rgb(162,27,27));
+    box-shadow: 0px 0px 20px 0px rgba(83, 14, 14, 0.8);
 
 }
 
-.flavour , .dessert {
-    text-align: left;
-    width: 75%;
+.green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+  }
 
-}
+/* .green {
+    background: linear-gradient(230, 255, 100);
+    box-shadow: 0 0 20px 0 rgb(0, 255, 0)
+} */
 
-.price{
-    text-align: right;
-    width: 24%;
-}
+.blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 rgb(0,0,255);
+}   
 
-
-                   /* FOOTER */
-
-footer {
-    font-size: 14px;
-}
-
-.address{
-    margin: 0px 0px 5px 0px;
-}
-
-a {
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: brown;
-}
-
-a:active {
-    color: brown;
-}
+  
+ 
